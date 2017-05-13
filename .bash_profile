@@ -8,10 +8,11 @@ alias l='ls -la'
 alias ip='ipconfig getifaddr en0'
 alias pi='ssh pi@78.244.2.185'
 alias aws='ssh ubuntu@35.164.70.69 -i /Users/Kali/Documents/Sites/aws/key.pem'
+alias aws2='ssh ubuntu@52.10.65.5 -i /Users/Kali/Documents/Sites/aws/aws2.pem'
 alias ds="sudo find / -name ".DS_Store" -depth -exec rm {} \;"
 alias project="ssh ubuntu@35.164.153.182 -i /Users/Kali/Documents/Sites/cockatoo/rubix3me-AWS.pem "
 alias mjml="./node_modules/.bin/mjml index.mjml"
-
+alias textedit="open -a textedit"
 
 # Create alias to show hidden files
 alias showH="defaults write com.apple.finder AppleShowAllFiles YES && killall Finder"
