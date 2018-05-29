@@ -11,6 +11,8 @@ alias ds="sudo find / -name ".DS_Store" -depth -exec rm {} \;"
 alias project="ssh ubuntu@35.164.153.182 -i /Users/Kali/Documents/Sites/cockatoo/rubix3me-AWS.pem "
 alias mjml="./node_modules/.bin/mjml index.mjml"
 alias textedit="open -a textedit"
+alias mc="make clean"
+alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
 # Create alias to show hidden files
 alias showH="defaults write com.apple.finder AppleShowAllFiles YES && killall Finder"
